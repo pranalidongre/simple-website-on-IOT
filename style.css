@@ -1,0 +1,110 @@
+body {
+  background-image: url('https://images.idgesg.net/images/article/2019/02/iot_internet_of_things_mobile_connections_by_avgust01_gettyimages-1055659210_2400x1600-100788447-large.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-shadow: 2px 2px 5px red;
+}
+img {
+  border-radius: 50%;
+}
+* {
+  box-sizing: border-box;
+}
+nav {
+  float: right;
+  width: 30%;
+  height: 630px; 
+  background: lightblue;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: right;
+  padding: 20px;
+  width: 70%;
+  background-color:cyan;
+  height: 350px; 
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input[type=text], input[type=password]{
+width:50%;
+padding:15px;
+margin: 8px 0;
+display:inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+button{
+background-color:#4CAF50;
+width:40%;
+padding: 15px;
+margin:5px 5px;
+cursor:pointer;
+border:none;
+color:black;
+}
+button:hover{
+opacity:0.8;
+}
+div {
+  width: 300px;
+  height: 350px;
+  padding: 15px;
+  background-color: lightblue;
+  color:black;
+  box-shadow: 15px 15px grey;
+}
+.hist {
+width: 1000px;
+  height: 350px;
+  padding: 15px;
+  background-color: lightblue;
+  color:black;
+  box-shadow: 15px 15px grey;
+}
+  li {
+color:yellow;
+text-decoration: underline;
+}
+h3 {
+color:white;
+}
+  dd {
+    color:white;
+  }
+  p1{
+    color:white;
+  }
+ .button {
+  background-color:wheat;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width:auto;
+}
+.btn {
+ width:250px;
+ background-color:coral;
+}
+a:link {
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+  font-weight: bold;
+
+}
